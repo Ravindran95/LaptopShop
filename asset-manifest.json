@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/LaptopShop/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/LaptopShop/static/js/main.c06bf5ac.chunk.js",
-    "main.js.map": "/LaptopShop/static/js/main.c06bf5ac.chunk.js.map",
+    "main.css": "/LaptopShop/static/css/main.afd7172b.chunk.css",
+    "main.js": "/LaptopShop/static/js/main.9c7cc8c4.chunk.js",
+    "main.js.map": "/LaptopShop/static/js/main.9c7cc8c4.chunk.js.map",
     "runtime-main.js": "/LaptopShop/static/js/runtime-main.0c54f0c2.js",
     "runtime-main.js.map": "/LaptopShop/static/js/runtime-main.0c54f0c2.js.map",
-    "static/js/2.069a0970.chunk.js": "/LaptopShop/static/js/2.069a0970.chunk.js",
-    "static/js/2.069a0970.chunk.js.map": "/LaptopShop/static/js/2.069a0970.chunk.js.map",
+    "static/js/2.51abe402.chunk.js": "/LaptopShop/static/js/2.51abe402.chunk.js",
+    "static/js/2.51abe402.chunk.js.map": "/LaptopShop/static/js/2.51abe402.chunk.js.map",
     "static/js/3.28818a1c.chunk.js": "/LaptopShop/static/js/3.28818a1c.chunk.js",
     "static/js/3.28818a1c.chunk.js.map": "/LaptopShop/static/js/3.28818a1c.chunk.js.map",
     "index.html": "/LaptopShop/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/LaptopShop/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.069a0970.chunk.js.LICENSE.txt": "/LaptopShop/static/js/2.069a0970.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/LaptopShop/static/media/logo.6ce24c58.svg"
+    "static/css/main.afd7172b.chunk.css.map": "/LaptopShop/static/css/main.afd7172b.chunk.css.map",
+    "static/js/2.51abe402.chunk.js.LICENSE.txt": "/LaptopShop/static/js/2.51abe402.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0c54f0c2.js",
-    "static/js/2.069a0970.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c06bf5ac.chunk.js"
+    "static/js/2.51abe402.chunk.js",
+    "static/css/main.afd7172b.chunk.css",
+    "static/js/main.9c7cc8c4.chunk.js"
   ]
 }
