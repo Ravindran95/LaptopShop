@@ -63,5 +63,34 @@ class MyClass extends React.Component
 
   }
 }
+class Increment extends React.Component
+{
+  constructor(props)
+  {
+    super(props);
+    this.increase=this.increase.bind(this);
+    this.state={
+      count: 0
+    };
+  }
+  increase()
+  {
+    this.setState((prevstate)=>{
+      return{
+        count:prevstate.count +1
+      };
+    });
+  }
+  render()
+  {
+    return(
+      <div>
+        <h2>count:{this.state.count}</h2>
+        <button onClick={this.increase} >Add</button>
+      </div>
+    );
+  }
+}
 ReactDOM.render(<ExtendedClass />,document.getElementById("sample"));
+ReactDOM.render(<Increment />,document.getElementById('root1'));
 reportWebVitals();

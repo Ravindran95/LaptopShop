@@ -8,3 +8,4 @@
    4.nested component
    5.props
    6.events and binding
+   7.indecsion
