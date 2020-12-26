@@ -13,9 +13,11 @@ ReactDOM.render(
 class Header extends React.Component{
   render()
   {
+    
       return(
           <div>
-              <p>React is awsome!!</p>
+              <p>Are you ready to learn</p>
+              <p>{this.props.ID}</p>
               </div>
       );
   }
@@ -23,10 +25,11 @@ class Header extends React.Component{
 class ExtendedClass extends React.Component{
  render()
  {
+  const ret="React is awsome!!";
  return(
   <div>
-    <Header />
-  <p>Are you ready to learn</p>
+    <Header ID={ret} />
+  
 </div>
  );
  }
