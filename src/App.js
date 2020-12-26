@@ -1,19 +1,27 @@
 import { useState } from "react";
 
-var Name={
-  name:"ravi"
-};
+class Colour{
+  constructor(clr)
+  {
+    this.clr=clr;
+  }
+  print()
+  {
+    return this.clr;
+  }
+}
+
 function App() {
   
-
-    const [Toggle, value] = useState(true);
-
+  const c=new Colour("Blue");
+    const [Toggle, value] = useState(false);
+    let displayContent = "Welcome Your favourite colour "+c.print();
     const toggleHandler = () => {
       const presentState = Toggle;
       value(!presentState);
     }
-    let displayContent = "Welcome "+Name.name;
-    if (Toggle) {
+    
+    if (!Toggle) {
       displayContent = "";
     }
  
