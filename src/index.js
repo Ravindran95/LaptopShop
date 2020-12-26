@@ -70,14 +70,14 @@ class Increment extends React.Component
     super(props);
     this.increase=this.increase.bind(this);
     this.state={
-      count: 0
+      count: 100
     };
   }
   increase()
   {
     this.setState((prevstate)=>{
       return{
-        count:prevstate.count +1
+        count:prevstate.count -1
       };
     });
   }
@@ -86,7 +86,7 @@ class Increment extends React.Component
     return(
       <div>
         <h2>count:{this.state.count}</h2>
-        <button onClick={this.increase} >Add</button>
+        <button onClick={this.increase} >Decrease</button>
       </div>
     );
   }
