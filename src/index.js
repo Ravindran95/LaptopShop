@@ -20,13 +20,18 @@ class Header extends React.Component{
       );
   }
 }
-const print=(
-<div>
+class ExtendedClass extends React.Component{
+ render()
+ {
+ return(
+  <div>
+    <Header />
   <p>Are you ready to learn</p>
-  <Header />
-  </div>
-);
-ReactDOM.render(print,document.getElementById("sample"));
+</div>
+ );
+ }
+}
+ReactDOM.render(<ExtendedClass />,document.getElementById("sample"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
