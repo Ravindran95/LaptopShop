@@ -29,14 +29,39 @@ class ExtendedClass extends React.Component{
  return(
   <div>
     <Header ID={ret} />
-  
+  <MyClass />
 </div>
  );
  }
 }
-ReactDOM.render(<ExtendedClass />,document.getElementById("sample"));
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+class MyClass extends React.Component
+{
+  Button(event)
+  {
+    event.preventDefault();
+    const val=event.target.elements.val.value;
+    if(val)
+    {
+      alert("Welcome "+val);
+    }
+  }
+  render()
+  {
+    return(
+      <div>
+        <form onSubmit={this.Button}>
+          <input type="text" name="val"></input>
+          <button>submit</button>
+        </form>
+      </div>
+    );
+
+  }
+}
+ReactDOM.render(<ExtendedClass />,document.getElementById("sample"));
 reportWebVitals();

@@ -7,3 +7,4 @@
    3.create react Component
    4.nested component
    5.props
+   6.events and binding
