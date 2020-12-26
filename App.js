@@ -12,17 +12,18 @@ var Name = {
   name: "ravi"
 };
 function App() {
-  var _useState = (0, _react.useState)(true),
+  var _useState = (0, _react.useState)(false),
       _useState2 = _slicedToArray(_useState, 2),
       Toggle = _useState2[0],
       value = _useState2[1];
 
+  var displayContent = "Welcome " + Name.name;
   var toggleHandler = function toggleHandler() {
     var presentState = Toggle;
     value(!presentState);
   };
-  var displayContent = "Welcome " + Name.name;
-  if (Toggle) {
+
+  if (!Toggle) {
     displayContent = "";
   }
 
