@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 class Colour{
   constructor(clr)
   {
