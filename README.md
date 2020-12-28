@@ -9,3 +9,5 @@
    5.props
    6.events and binding
    7.indecsion
+   8.default props
+   9.reactDevTool

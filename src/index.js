@@ -25,16 +25,18 @@ class Header extends React.Component{
 class ExtendedClass extends React.Component{
  render()
  {
-  const ret="React is awsome!!";
+  
  return(
   <div>
-    <Header ID={ret} />
+    <Header ID={this.props.ret} />
   <MyClass />
 </div>
  );
  }
 }
-
+ExtendedClass.defaultProps={
+  ret:"React is awsome!!"
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
